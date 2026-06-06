@@ -1,0 +1,26 @@
+.task-list-container {
+  margin-top: 30px;
+}
+
+.task-list-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .task-list-container {
+    margin-top: 20px;
+  }
+
+  .task-list-container h2 {
+    font-size: 18px;
+  }
+}

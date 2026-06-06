@@ -1,0 +1,15 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Complete MERN Stack Task Management Application",
+  "author": "Student",
+  "license": "MIT",
+  "keywords": [
+    "MERN",
+    "Task Management",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "Express"
+  ]
+}

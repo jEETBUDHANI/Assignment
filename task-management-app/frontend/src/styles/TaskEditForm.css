@@ -1,0 +1,47 @@
+.task-edit-form {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+  padding: 20px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.task-edit-form form {
+  display: grid;
+  gap: 16px;
+}
+
+.task-edit-form .form-group {
+  margin-bottom: 0;
+}
+
+.task-edit-form textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.form-actions .btn {
+  padding: 9px 18px;
+  font-size: 14px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .task-edit-form {
+    padding: 15px;
+  }
+
+  .form-actions {
+    flex-wrap: wrap;
+  }
+
+  .form-actions .btn {
+    min-width: 110px;
+  }
+}
